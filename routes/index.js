@@ -13,7 +13,7 @@ router.get('/', function(req, res) {
 
 
 router.get('/form', function(req, res) {
-    res.render('form', { title: 'New Entry' })
+    res.render('form', { title: '新規作成' })
 });
 
 router.post('/create', function(req, res){
